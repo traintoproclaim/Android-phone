@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_result"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    
+    <RelativeLayout 
+          android:id="@+id/rl_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:paddingBottom="30dip"
+          > 
+
+	<TextView
+	    android:id="@+id/tv_quickQuiz"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="15dp"
+	    android:text="Quiz"
+	    android:textColor="#336666"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textStyle="bold"
+	    />
+
+		<TextView
+		    android:id="@+id/tv_youScoreIs"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/tablelayout1"
+		    android:layout_below="@+id/tv_quickQuiz"
+		    android:textSize="22dip"
+		    android:textColor="#1A1A1A"
+		    android:text="@string/text_your_score_is" />
+
+		
+
+
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:layout_below="@+id/tv_youScoreIs"
+    android:id="@+id/tablelayout1"
+    >
+      <RelativeLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+          android:gravity="left"
+          >
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/result_1"
+		    android:gravity="center" 
+		    android:textSize="18dip"
+		    android:layout_centerInParent="true"
+		    android:textColor="#1A1A1A"
+		    android:id="@+id/TV_result1">
+		 </TextView>
+
+		<ImageView
+		    android:id="@+id/iv_1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:scaleType="fitXY"
+		    android:background="@drawable/result_circle5"
+		    android:visibility="invisible" />
+
+		</RelativeLayout>  
+       
+      <RelativeLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+          >
+		
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/result_2"
+			    android:textColor="#1A1A1A"
+			      android:textSize="18dip"
+			    android:layout_centerInParent="true"
+			    android:id="@+id/TV_result2"/>
+			
+			<ImageView
+			    android:id="@+id/iv_2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerInParent="true"
+			     android:scaleType="fitXY"
+			    android:background="@drawable/result_circle5"
+			    android:visibility="invisible" />
+
+		</RelativeLayout>
+
+      <RelativeLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+         
+          >
+			
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/result_3"
+		    android:textColor="#1A1A1A"
+		    android:gravity="center" 
+		      android:textSize="18dip"
+		    android:layout_centerInParent="true"
+		    android:id="@+id/TV_result3">
+		 </TextView>
+		 
+			<ImageView
+			    android:id="@+id/iv_3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerInParent="true"
+			     android:scaleType="fitXY"
+			    android:background="@drawable/result_circle5"
+			    android:visibility="invisible" />
+
+		</RelativeLayout>
+       <RelativeLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dip"
+          >
+			
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/result_4"
+			    android:gravity="center"
+			      android:textSize="18dip"
+			    android:layout_centerInParent="true" 
+			    android:textColor="#1A1A1A"
+			    android:id="@+id/TV_result4">
+			    
+			 </TextView>
+
+			 <ImageView
+			     android:id="@+id/iv_4"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_centerInParent="true"
+			      android:scaleType="fitXY"
+			     android:background="@drawable/score_cross6"
+			     android:visibility="invisible" />
+
+		</RelativeLayout>
+		
+          <RelativeLayout
+              android:id="@+id/rl_bottom"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:layout_marginTop="5dip">
+
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/result_5"
+			    android:gravity="center" 
+			      android:textSize="18dip"
+			    android:textColor="#1A1A1A"
+			     android:layout_centerInParent="true"
+			    android:id="@+id/TV_result5">
+			 </TextView>
+             
+             <ImageView
+                 android:id="@+id/iv_6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                  android:scaleType="fitXY"
+                 android:background="@drawable/result_circle5"
+                 android:visibility="invisible" />
+
+		</RelativeLayout>
+		
+ </TableLayout>
+ <TextView
+		    android:id="@+id/result_narration2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/tv_youScoreIs"
+		    android:layout_alignLeft="@+id/tv_youScoreIs"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#336666"
+		    android:textSize="20dip"
+		    android:layout_marginTop="20dip"
+		    android:visibility="invisible"
+		    />
+ 
+		<Button
+		    android:id="@+id/button_presentation"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		     android:layout_toRightOf="@+id/tablelayout1"
+		      android:layout_alignBottom="@+id/tablelayout1"
+		      android:layout_marginBottom="40dip"
+		    android:layout_marginLeft="100dp"
+		    android:background="@drawable/next" />
+
+		<Button
+		    android:id="@+id/button_next"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@+id/tablelayout1"
+		    android:layout_alignBottom="@+id/tablelayout1"
+		    android:layout_marginBottom="40dip"
+		    android:layout_marginLeft="100dp"
+		    android:visibility="invisible"
+		    android:background="@drawable/next" />
+
+<!-- ######################################################################################################### -->
+
+		<ImageView
+		    android:id="@+id/iv_bible1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/tv_youScoreIs"
+		    android:layout_alignLeft="@+id/tv_youScoreIs"
+		    android:layout_marginTop="20dip"
+		    android:background="@drawable/screen_1_bible"
+		    android:visibility="invisible"
+		    />
+
+		</RelativeLayout>
+  <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+    <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+      
+     
+
+     <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+            android:onClick="onTextClick"
+          >
+
+            <TextView
+		    android:id="@+id/result_narration1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:textSize="18dip"
+		   android:textColor="#747474" />
+        </LinearLayout> -->
+		
+
+   </RelativeLayout>

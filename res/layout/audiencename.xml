@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+   <RelativeLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:paddingBottom="40dip"
+       android:paddingRight="30dip"
+       >
+    
+    
+    <TextView
+        android:id="@+id/tv_audienceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:textColor="#336666"
+        android:textSize="@dimen/title_font_size"
+        android:text="Enter name"
+        android:layout_marginTop="52dp"
+        />
+
+    <EditText
+        android:id="@+id/et_audienceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_audienceName"
+        android:layout_alignBottom="@+id/tv_audienceName"
+        android:layout_toRightOf="@+id/tv_audienceName"
+        android:maxLength="14"
+        android:ems="10"
+        android:singleLine="true"
+        android:width="150dp"
+        android:inputType="textCapSentences" />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_audienceName"
+        android:layout_marginTop="15dip"
+        android:layout_toRightOf="@+id/tv_audienceName"
+        android:orientation="vertical" >
+
+        <TableLayout>
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                 android:textSize="@dimen/body_font_size"
+                android:textColor="#1A1A1A" />
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1A1A1A"
+                android:textSize="@dimen/body_font_size"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/rb_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group"
+                android:textSize="@dimen/body_font_size"
+                android:textColor="#1A1A1A" />
+        </TableLayout>
+    </RadioGroup>
+</RelativeLayout>
+    
+    <Button
+        android:id="@+id/btn_audience_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip"
+    	android:layout_marginRight="30dip"
+        android:background="@drawable/next"
+         />
+
+</RelativeLayout>

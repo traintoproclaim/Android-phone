@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_inner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" 
+            android:paddingBottom="10dip">
+
+            <RelativeLayout
+                android:id="@+id/rl_lefl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" >
+
+                <ImageView
+                    android:id="@+id/iv_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/body_down" />
+				
+				<!-- <ImageView
+                    android:id="@+id/iv_body_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/body_down1"
+                    android:visibility="invisible" /> -->
+				
+                <ImageView
+                    android:id="@+id/iv_circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible" />
+
+                
+                <ImageView
+                    android:id="@+id/iv_soul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible"
+                    android:background="@drawable/soul"
+                     />
+                
+                <ImageView
+                    android:id="@+id/iv_all_of_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_body"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="24dip"
+                    android:background="@drawable/all_of_us" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_in_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/rl_lefl" >
+
+                <ImageView
+                    android:id="@+id/iv_heven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/heaven"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/iv_arrows"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_heven"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/crossbars"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/iv_hell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_arrows"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dip"
+                    android:src="@drawable/hell"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@+id/rl_in_mid"
+                android:visibility="invisible" />
+            
+        </RelativeLayout>
+
+         <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+         
+       <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+         <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+        
+    </RelativeLayout>
+
+</RelativeLayout>

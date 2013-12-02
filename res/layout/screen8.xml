@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+      <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="15dip" >
+        
+        <ImageView
+            android:id="@+id/iv_fist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+           
+            android:src="@drawable/fist" />
+
+        <TextView 
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WOULD THAT SOUND "
+            android:textColor="#1A1A1A"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_fist"
+            android:gravity="center"
+            android:layout_marginTop="8dip"
+            android:textSize="@dimen/middle_text_font_size"
+            />
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dip" >
+        
+
+        <TextView 
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RIGHT"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="@dimen/middle_text_font_size"
+            />
+        
+         <TextView 
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" TO YOU?"
+            android:textColor="#1A1A1A"
+            android:gravity="center"
+            android:textSize="@dimen/middle_text_font_size"
+            />
+         
+        </LinearLayout>
+        </RelativeLayout>
+          <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+          
+       <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+     <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+        
+    </RelativeLayout>
+
+</RelativeLayout>

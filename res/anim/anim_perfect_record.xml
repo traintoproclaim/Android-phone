@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_body_down" android:oneshot="true">
+    <item android:drawable="@drawable/perfect_record1" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record2" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record3" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record4" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record5" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record6" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record7" android:duration="100" />
+    <item android:drawable="@drawable/perfect_record8" android:duration="100" />
+    </animation-list>

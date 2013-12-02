@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        
+        <RelativeLayout
+             android:id="@+id/rl_22"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+              android:layout_marginTop="15dip"
+             >
+        
+        <ImageView
+			     android:id="@+id/iv_time_line"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:background="@drawable/timeline_whole"
+			     android:visibility="invisible"
+			     />
+         
+         <ImageView
+			     android:id="@+id/iv_cross"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_centerHorizontal="true"
+			     android:background="@drawable/cross8"
+			     android:layout_marginTop="10dip"
+			      android:visibility="invisible"
+			     />
+         </RelativeLayout>
+          
+         <RelativeLayout
+             android:id="@+id/rl_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true" 
+             >
+        
+             
+              
+			 <ImageView
+			     android:id="@+id/iv_jesus_cross"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_centerVertical="true"
+			     android:background="@drawable/cross_grey" />
+			
+			 <ImageView
+			     android:id="@+id/iv_jesus_and_you"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_centerVertical="true"
+			     android:layout_marginLeft="20dip"
+			     android:visibility="invisible"
+			     android:layout_toRightOf="@+id/iv_jesus_cross"
+			     />
+               
+         </RelativeLayout>
+           <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+         
+         
+        <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+             android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+       <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

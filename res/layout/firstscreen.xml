@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_logo"
+   >
+
+    <!--
+    	<ImageView
+	    android:id="@+id/img_Logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dp"
+	    android:scaleType="fitXY"
+	   />
+    -->
+    
+  <!--   <include 
+		layout="@layout/menu"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/topbar" 
+	    android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+	    />
+     -->
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/menu_btn"
+       /> 
+   
+  
+    <RelativeLayout 
+        android:id="@+id/rl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        
+      <Button
+        android:id="@+id/button_playVideo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/video"
+        />
+   
+    
+    <Button
+        android:id="@+id/button_manual1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/button_playVideo1"
+        android:background="@drawable/interactive"/>
+    
+    </RelativeLayout>
+
+ </RelativeLayout>

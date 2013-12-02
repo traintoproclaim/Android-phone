@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_circle" android:oneshot="true">
+    <item android:drawable="@drawable/no_justice1" android:duration="100" />
+    <item android:drawable="@drawable/no_justice2" android:duration="100" />
+    <item android:drawable="@drawable/no_justice3" android:duration="100" />
+    <item android:drawable="@drawable/no_justice4" android:duration="100" />
+    <item android:drawable="@drawable/no_justice5" android:duration="100" />
+    <item android:drawable="@drawable/no_justice6" android:duration="100" />
+    <item android:drawable="@drawable/no_justice7" android:duration="100" />
+    <item android:drawable="@drawable/no_justice8" android:duration="100" />
+ </animation-list>

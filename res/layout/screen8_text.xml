@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        
+
+        <TextView 
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WOULD THAT SOUND "
+            android:textColor="#1A1A1A"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/iv_fist"
+            android:gravity="center"
+            android:layout_marginTop="8dip"
+            android:textSize="@dimen/middle_text_font_size"
+            />
+        
+        <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+       <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+      <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+    
+     <TextView 
+             android:id="@+id/tv1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="You are logged in as:"
+             android:textColor="#000000"
+             android:layout_marginTop="10dip"
+             android:textSize="@dimen/small_text_font_size"
+             />
+     
+      <TextView 
+             android:id="@+id/tv_login_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="atul"
+                android:layout_marginTop="10dip"
+             android:layout_toRightOf="@+id/tv1"
+             android:textColor="#000000"
+             android:textSize="@dimen/small_text_font_size"
+           
+             
+             />
+      
+       <TextView 
+             android:id="@+id/tv_change_login"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Change User?"
+             
+             android:layout_below="@+id/tv_login_name"
+              android:textColor="#000000"
+               android:textSize="@dimen/small_text_font_size"
+              android:layout_marginTop="10dip"
+             />
+    <TableLayout 
+         android:id="@+id/tl_1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         
+         android:layout_below="@+id/tv_change_login"
+         android:layout_marginTop="10dip"
+         >
+         
+        
+             <TableRow
+		        android:id="@+id/tl1_tableRow1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        >
+
+                 <TextView
+                     android:id="@+id/tv_lable1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="On this day :"
+                     android:textSize="@dimen/small_text_font_size"
+                     android:textColor="#1A1A1A" />
+        
+			        <TextView 
+			            android:id="@+id/et_date"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="5dip"
+			            android:textSize="@dimen/small_text_font_size"
+			            android:textColor="#1A1A1A"
+			            />
+         </TableRow>
+                
+     </TableLayout>
+ 
+     
+     <TableLayout 
+         android:id="@+id/tl_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:layout_below= "@+id/tl_1"
+         >
+         
+      <TableRow
+        android:id="@+id/tl2_tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+         >
+ 
+        <TextView
+            android:id="@+id/tv_tl2_tr1_lable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number Reached:"
+            android:textSize="@dimen/small_text_font_size"
+            android:textColor="#1A1A1A" />
+
+        <TextView
+            android:id="@+id/tv_tl2_tr1_lable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country of Origin:"
+            android:layout_marginLeft="30dp"
+              android:textSize="@dimen/small_text_font_size"
+            android:textColor="#1A1A1A" />
+
+         </TableRow>
+                
+      <TableRow
+        android:id="@+id/tl2_tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip" >
+ 
+        <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          />
+      
+          <Spinner
+         android:id="@+id/sp_country1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="30dp"
+         />
+    
+         </TableRow>
+         
+          <TableRow
+        android:id="@+id/tl2_tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip" >
+ 
+        <Spinner
+         android:id="@+id/spinner2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          />
+
+     <Spinner
+         android:id="@+id/sp_country2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="30dp"
+         />
+      
+         </TableRow>
+         
+           <TableRow
+        android:id="@+id/tl2_tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dip">
+ 
+        <Spinner
+         android:id="@+id/spinner3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          />
+
+     <Spinner
+         android:id="@+id/sp_country3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="30dp"
+          />
+      
+         </TableRow>
+     </TableLayout>
+
+     <Button
+         android:id="@+id/btn_send"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tl_2"
+        
+         android:layout_marginLeft= "20dp"
+         android:layout_toRightOf="@+id/tl_2"
+         android:background="@drawable/send_btn" />
+
+   </RelativeLayout>
+</RelativeLayout>

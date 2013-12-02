@@ -1,0 +1,244 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+          
+         <RelativeLayout
+             android:id="@+id/rl_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true" >
+        
+         <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+
+           
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_jesus_text" >
+
+               <RelativeLayout
+                    android:id="@+id/rl_t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+
+           <RelativeLayout
+                    android:id="@+id/rl_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+                    <ImageView
+		               android:id="@+id/iv_jesus_text"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:layout_centerHorizontal="true"
+					   android:background="@drawable/jesus_txt_small"
+					   android:layout_marginBottom="12dip"
+					/>
+                   <RelativeLayout
+                    android:id="@+id/rl_lefl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/iv_jesus_text"
+                     >
+
+                    <ImageView
+                        android:id="@+id/iv_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/body_gray" />
+
+                    <ImageView
+                        android:id="@+id/iv_soul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/soul_white_small" />
+
+                     <ImageView
+                        android:id="@+id/iv_circle_jesus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="invisible"
+                        android:background="@drawable/circle_small5" /> 
+               
+                    
+                     
+                     </RelativeLayout>
+</RelativeLayout>
+                 <ImageView
+                    android:id="@+id/iv_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_alignBottom="@+id/rl_up"
+                    android:layout_marginLeft="8dip"
+                    android:layout_toRightOf="@+id/rl_up"
+                    android:background="@drawable/heaven_arrow" />
+
+                 </RelativeLayout>
+                
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_perfect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/rl1"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/page_13_perfect"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+        
+         
+         <!--  ########################################################################## -->
+         
+         <RelativeLayout
+            android:id="@+id/rl_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rl_left"
+            android:layout_marginLeft="25dip"
+            >
+
+            
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_jesus_text" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+
+               
+                  <RelativeLayout
+                    android:id="@+id/rl_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+                    
+                    <ImageView
+		                android:id="@+id/iv_jesus_text"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_centerHorizontal="true"
+						android:background="@drawable/all_of_us_dark"
+						android:layout_marginBottom="12dip"
+						/> 
+				
+                 <RelativeLayout
+                    android:id="@+id/rl_lefl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_jesus_text"
+                    android:layout_alignParentLeft="true" >
+
+                    <ImageView
+                        android:id="@+id/iv_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/body_dark_gray" />
+
+                    <ImageView
+                        android:id="@+id/iv_soul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/soul_dark_small" />
+
+                    <ImageView
+                        android:id="@+id/iv_circle_ours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="invisible"
+                        android:background="@drawable/circle_small5" />
+                </RelativeLayout>
+
+                 </RelativeLayout>
+                
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                    android:id="@+id/iv_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_imperfect"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toRightOf="@+id/rl1"
+                    android:background="@drawable/hell_arrow_small" />
+            
+            <ImageView
+                android:id="@+id/iv_imperfect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl1"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/page_13_imperfect"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+         
+         </RelativeLayout>
+         
+           <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+         
+       <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+             android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+       <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/background" >
+
+ 
+		<RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    >
+        
+         <TextView
+             android:id="@+id/tv_thanks"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Thank You"
+             android:textColor="#1A1A1A"
+             android:layout_centerHorizontal="true"
+             android:layout_marginLeft="8dip"
+             android:textSize="@dimen/title_font_size"/>
+		
+		<TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:gravity="center"
+            android:layout_below="@+id/tv_thanks"
+            android:textSize="@dimen/body_font_size"
+            android:textColor="#1A1A1A" />
+		
+          <EditText
+             android:id="@+id/et_name"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/tv_message"
+             android:layout_marginTop="5dip"
+             android:inputType="textCapSentences"
+             android:hint="Enter Name"
+             android:singleLine="true" />
+         
+         <EditText
+             android:id="@+id/et_email"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/et_name"
+             android:layout_marginTop="5dip"
+             android:hint="Enter E-mail Address"
+             android:singleLine="true" />
+
+        
+          <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/et_email"
+           android:layout_marginTop="5dip"
+           android:layout_centerHorizontal="true"
+           >
+         
+         <Button
+             android:id="@+id/btn_send"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/send_btn"
+             android:layout_marginRight="5dip"
+            />
+        </RelativeLayout>
+          
+        </RelativeLayout>
+        
+		<Button
+             android:id="@+id/btn_end"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/endbtn"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:layout_marginBottom="10dip"
+             android:layout_marginRight="20dip"
+             android:visibility="invisible"
+             />
+		
+		<Button
+             android:id="@+id/btn_next"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/next"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="30dip"
+             android:layout_marginRight="20dip"
+             android:visibility="gone"
+             />
+  </RelativeLayout>

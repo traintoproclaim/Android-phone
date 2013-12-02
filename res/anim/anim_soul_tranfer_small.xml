@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_soul_tranfer" android:oneshot="true">
+    <item android:drawable="@drawable/soul_transfer_small1" android:duration="180" />
+    <item android:drawable="@drawable/soul_transfer_small2" android:duration="180" />
+    <item android:drawable="@drawable/soul_transfer_small3" android:duration="180" />
+    <item android:drawable="@drawable/soul_transfer_small4" android:duration="180" />
+    <item android:drawable="@drawable/soul_transfer_small5" android:duration="180" />
+     <item android:drawable="@drawable/soul_transfer_small6" android:duration="180" />
+    <item android:drawable="@drawable/soul_transfer_small7" android:duration="180" />
+     <item android:drawable="@drawable/soul_transfer_small8" android:duration="180" />
+   <item android:drawable="@drawable/soul_transfer_small9" android:duration="180" />
+ </animation-list>

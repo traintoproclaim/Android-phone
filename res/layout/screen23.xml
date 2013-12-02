@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+          
+        
+  <RelativeLayout
+             android:id="@+id/rl_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+            android:paddingBottom="15dip"
+              >
+
+      			<ImageView
+                    android:id="@+id/iv_perfect_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/timeline_whole" />
+               
+               <TextView 
+                   android:id="@+id/tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="WE MUST"
+                   android:textColor="#1A1A1A"
+                   android:layout_marginTop="5dip"
+                   android:layout_below="@+id/iv_perfect_record"
+                   android:textSize="22dip"
+                   android:layout_centerHorizontal="true"
+                   />
+               
+              <RelativeLayout 
+                  android:id="@+id/rr"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dip"
+                  android:layout_below="@+id/tv1"
+                  android:layout_centerHorizontal="true"
+                  >
+               
+               <ImageView
+                   android:id="@+id/iv_turn_away"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/turn_away_small"
+                   android:visibility="invisible" />
+       
+            	<ImageView
+                    android:id="@+id/iv_surrender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_turn_away"
+                    android:visibility="invisible"
+                    android:background="@drawable/surrender_small"
+                    android:layout_marginLeft="20dip"/>
+               </RelativeLayout>
+                    
+       </RelativeLayout>
+           
+           <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+         
+         
+      <!--   <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+             android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+       <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+      
+    </RelativeLayout>
+ </RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="200dip"
+	android:layout_height="200dip"
+	android:id="@+id/bottembar"
+	android:layout_alignParentBottom="true"
+>
+
+	 <Button 
+  			android:id="@+id/btn_let_start"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  		    android:layout_centerHorizontal="true"
+  		    android:background="@drawable/save"
+  		    android:layout_above="@+id/btn_not_ready"
+  		    android:layout_marginBottom="10dp"
+  		   />   
+  		     
+         <Button 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/btn_not_ready" 
+    		android:layout_centerHorizontal="true"
+    		 android:background="@drawable/discard"
+    		android:layout_marginBottom="20dp"
+			android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

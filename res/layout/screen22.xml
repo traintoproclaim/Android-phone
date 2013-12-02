@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+          
+  <RelativeLayout
+      android:id="@+id/rl_2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_marginBottom="20dip" >
+
+      
+	<ImageView
+          android:id="@+id/iv_perfect_record"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/iv_jesus_and_you"
+          android:layout_marginRight="50dp"
+          android:visibility="invisible"
+          android:layout_centerVertical="true"
+          android:background="@drawable/perfect_record"
+           />
+
+	
+
+	
+<!-- ############################################################## -->
+      <RelativeLayout
+          android:id="@+id/rr11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/iv_perfect_record"
+          android:layout_centerVertical="true"
+          android:layout_marginRight="16dp"
+          android:layout_marginLeft="0dip">
+          
+          
+          <RelativeLayout
+          android:id="@+id/rr"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          >
+
+          <ImageView
+              android:id="@+id/iv_perfect_text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/iv_perfect_record"
+              android:background="@drawable/perfect_text"
+              android:visibility="invisible"
+               />
+
+          <ImageView
+              android:id="@+id/iv_cross"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/iv_perfect_record"
+              android:layout_centerInParent="true"
+              android:background="@drawable/cross8"
+              android:visibility="invisible" />
+          
+      </RelativeLayout>
+      
+          <ImageView 
+              android:id="@+id/iv_two"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+             android:background="@drawable/two"
+              android:layout_marginLeft="20dip"
+              android:textColor="#000000"
+             android:visibility="invisible"
+              />
+              
+      <ImageView
+          android:id="@+id/iv_jesus_and_you"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:visibility="invisible"
+          android:background="@drawable/soul_transfer_you5"
+        
+          android:layout_marginTop="5dip"
+          android:layout_below="@+id/iv_two"
+          />
+
+      </RelativeLayout>
+      
+      
+  </RelativeLayout>
+           
+      <RelativeLayout   
+          android:id="@+id/rl_3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:layout_marginBottom="20dip">
+          
+           <ImageView
+               android:id="@+id/iv_eternity"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerInParent="true"
+               android:visibility="visible" />
+           
+      </RelativeLayout>   
+         
+           <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+        <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+             android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+       <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

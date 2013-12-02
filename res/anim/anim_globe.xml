@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_globe" android:oneshot="false" >
+    <item android:drawable="@drawable/glob1" android:duration="300" />
+    <item android:drawable="@drawable/glob2" android:duration="300" />
+    <item android:drawable="@drawable/glob3" android:duration="300" />
+    <item android:drawable="@drawable/glob4" android:duration="300" />
+    <item android:drawable="@drawable/glob5" android:duration="300" />
+   <item android:drawable="@drawable/glob6" android:duration="300" />
+   <item android:drawable="@drawable/glob7" android:duration="300" />
+   <item android:drawable="@drawable/glob8" android:duration="300" />
+   <item android:drawable="@drawable/glob9" android:duration="300" />
+   <item android:drawable="@drawable/glob10" android:duration="300" />
+   <item android:drawable="@drawable/glob11" android:duration="300" />
+   <item android:drawable="@drawable/glob12" android:duration="300" />   
+   
+  
+ </animation-list>

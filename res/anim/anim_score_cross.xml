@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_black" android:oneshot="true">
+    
+    <item android:drawable="@drawable/blank" android:duration="500" />
+    <item android:drawable="@drawable/score_cross1" android:duration="100" />
+    <item android:drawable="@drawable/score_cross2" android:duration="100" />
+    <item android:drawable="@drawable/score_cross3" android:duration="100" />
+    <item android:drawable="@drawable/score_cross4" android:duration="100" />
+    <item android:drawable="@drawable/score_cross5" android:duration="100" />
+    <item android:drawable="@drawable/score_cross6" android:duration="100" />
+  <item android:drawable="@drawable/score_cross7" android:duration="100" />
+    <item android:drawable="@drawable/score_cross8" android:duration="100" />
+    
+ </animation-list>

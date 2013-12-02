@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_circle" android:oneshot="true">
+    <item android:drawable="@drawable/jesus_white_icon1" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon2" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon3" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon4" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon5" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon6" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon7" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon8" android:duration="100" />
+    <item android:drawable="@drawable/jesus_white_icon9" android:duration="100" />
+  
+ </animation-list>

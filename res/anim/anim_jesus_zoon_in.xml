@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_body_down" android:oneshot="true">
+   
+    <item android:drawable="@drawable/jesus0" android:duration="100" />
+    <item android:drawable="@drawable/jesus1" android:duration="100" /> 
+    <item android:drawable="@drawable/jesus2" android:duration="100" />
+    <item android:drawable="@drawable/jesus3" android:duration="100" /> 
+    <item android:drawable="@drawable/jesus4" android:duration="100" />
+    <item android:drawable="@drawable/jesus5" android:duration="100" />  
+    <item android:drawable="@drawable/jesus6" android:duration="100" />
+    <item android:drawable="@drawable/jesus7" android:duration="100" />   
+    <item android:drawable="@drawable/jesus8" android:duration="100" /> 
+ </animation-list>

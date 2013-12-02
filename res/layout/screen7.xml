@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+         <!-- <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+           android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+        
+            <ImageView
+                android:id="@+id/iv_speech_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/speech_bubble_plead"
+                android:layout_marginLeft="5dip"
+               />
+       
+            <ImageView
+                android:id="@+id/iv_speech_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/speech_bubble_judge"
+                android:layout_marginRight="5dip"
+                android:visibility="invisible"
+               />
+            
+            <RelativeLayout 
+                android:id="@+id/rl_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+               
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/padding_bottom"
+                >
+
+                <ImageView
+                android:id="@+id/iv_guilty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/guilty"
+                android:visibility="invisible"
+                /> 
+                
+            <ImageView
+                android:id="@+id/iv_handcuffs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_below="@+id/iv_guilty"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/handcuffs"
+               />
+            
+            </RelativeLayout>
+             <include 
+                 android:id="@+id/include1"
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+            
+       <!--   <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            /> -->
+       
+    </RelativeLayout>
+
+</RelativeLayout>

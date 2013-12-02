@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	
+	 <Button 
+	    android:id="@+id/btn_menu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="MENU OPTION"
+	    /> 
+	
+	<!-- <Spinner
+        android:id="@+id/spinner_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" 
+        android:prompt="Menu"
+        
+        >
+    </Spinner>
+     -->
+	
+	
+<!-- <TableLayout 
+	    android:id="@+id/table"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:layout_toRightOf="@+id/btn_menu"
+	    >
+	    <TableRow 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/menu_row_bg"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Long version"
+	            />
+	          </TableRow>
+	          
+	     <TableRow 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/menu_row_bg"
+	        >
+	        
+	    <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Short version"
+	            />
+	        
+	        
+	        
+	    </TableRow>
+	    
+	</TableLayout> -->
+	
+</RelativeLayout>

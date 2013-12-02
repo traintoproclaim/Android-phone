@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_circle" android:oneshot="true">
+    <item android:drawable="@drawable/eternity1" android:duration="100" />
+    <item android:drawable="@drawable/eternity2" android:duration="100" />
+    <item android:drawable="@drawable/eternity3" android:duration="100" />
+    <item android:drawable="@drawable/eternity4" android:duration="100" />
+    <item android:drawable="@drawable/eternity5" android:duration="100" />
+    <item android:drawable="@drawable/eternity6" android:duration="100" />
+    <item android:drawable="@drawable/eternity7" android:duration="100" />
+    <item android:drawable="@drawable/eternity8" android:duration="100" />
+    <item android:drawable="@drawable/eternity9" android:duration="100" />
+    <item android:drawable="@drawable/eternity10" android:duration="100" />
+    <item android:drawable="@drawable/eternity11" android:duration="100" />
+  
+ </animation-list>

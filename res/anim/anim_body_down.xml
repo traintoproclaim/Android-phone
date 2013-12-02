@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_body_down" android:oneshot="true">
+      <item android:drawable="@drawable/body_down" android:duration="50" />  
+        <item android:drawable="@drawable/body_down1" android:duration="100" />  
+	    <item android:drawable="@drawable/body_down2" android:duration="100" />
+	    <item android:drawable="@drawable/body_down3" android:duration="100" />
+	    <item android:drawable="@drawable/body_down4" android:duration="100" />
+	    <item android:drawable="@drawable/body_down5" android:duration="100" />
+	    <item android:drawable="@drawable/body_down6" android:duration="100" />
+	    <item android:drawable="@drawable/body_down7" android:duration="100" /> 
+	    <item android:drawable="@drawable/body_down8" android:duration="100" />
+	
+    
+    </animation-list>

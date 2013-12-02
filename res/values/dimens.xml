@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <dimen name="title_font_size">22sp</dimen>
+    <dimen name="text_font_size">20sp</dimen>
+    <dimen name="body_font_size">18sp</dimen>
+    <dimen name="middle_text_font_size">26sp</dimen>
+    <dimen name="big_text_font_size">28sp</dimen>
+     <dimen name="large_text_font_size">30sp</dimen>
+    <dimen name="small_text_font_size">16sp</dimen>
+    <dimen name="alert_margin_top">-10dp</dimen>
+    <dimen name="padding_bottom">55dp</dimen>
+     <dimen name="photo_width">120dp</dimen>
+    <dimen name="margin_right">0dp</dimen>
+    <dimen name="heart_text_margin_top">60dp</dimen>
+    
+</resources>

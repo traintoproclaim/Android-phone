@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+       
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+             android:layout_marginLeft="25dip"
+		            android:layout_marginRight="25dip"
+            >
+		        <TextView 
+		            android:id="@+id/tv_top"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/body_font_size"
+		             android:gravity="center"
+		            android:text="CONGRATULATIONS!"
+		            android:layout_centerHorizontal="true"
+		            android:textColor="#000000"
+		            android:visibility="gone"
+		            />
+		        
+		        <TextView 
+		            android:id="@+id/tv_count"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/title_font_size"
+		            android:text="textview"
+		            android:gravity="center"
+		            android:layout_below="@+id/tv_top"
+		            android:layout_marginTop="5dip"
+		            android:layout_centerHorizontal="true"
+		            android:textColor="#000000"
+		            android:textStyle="bold"
+		            android:visibility="gone"
+		            />
+		        
+		        <TextView 
+		            android:id="@+id/tv1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/body_font_size"
+		            android:text="textview"
+		             android:gravity="center"
+		            android:layout_centerHorizontal="true"
+		            android:layout_below="@+id/tv_count"
+		            android:layout_marginTop="5dip"
+		            android:textColor="#000000"
+		            />
+        </RelativeLayout>
+        
+        
+          <Button
+             android:id="@+id/btn_end"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/next"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:layout_marginBottom="20dip"
+             android:layout_marginRight="20dip"
+           
+             />
+    </RelativeLayout>
+  </RelativeLayout>

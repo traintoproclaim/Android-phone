@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src/com/anuva/GospelPresentation/Data_entry_screen.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/anuva/GospelPresentation/Data_entry_screen.java" />
+    </issue>
+    <issue id="ParserError" severity="ignore" />
+    <issue id="ResourceAsColor">
+        <ignore path="src/com/anuva/GospelPresentation/Screen14_before_jesus_came_earth.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/anuva/GospelPresentation/Screen19_3_come_in_front_of_god.java" />
+    </issue>
+</lint>

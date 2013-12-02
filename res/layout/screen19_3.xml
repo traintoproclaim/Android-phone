@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <ImageView
+			     android:id="@+id/iv_world"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_centerVertical="true" 
+			     android:background="@drawable/earth1"
+                 android:layout_marginLeft="15dip"/>      
+                
+         
+         <ImageView
+			     android:id="@+id/iv_top"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_alignParentTop="true"
+			     android:layout_alignParentRight="true"
+			     android:layout_marginTop="20dip"
+			     android:layout_marginRight="30dip"
+			     android:layout_centerVertical="true"
+			     android:visibility="invisible"
+			     android:background="@drawable/cross_brown" /> 
+         
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="20dip"
+			android:layout_marginRight="30dip"
+            >
+         
+         <ImageView
+			     android:id="@+id/iv_picture"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:scaleType="fitXY"
+			     android:visibility="invisible"
+			     android:background="@drawable/photo_icon" /> 
+			   
+		 <ImageView
+			     android:id="@+id/iv_picture1"
+			     android:layout_width="@dimen/photo_width"
+			     android:layout_height="@dimen/photo_width"
+			     android:layout_centerInParent="true"
+			     android:scaleType="fitXY"
+			     android:visibility="invisible"
+			     /> 
+         </RelativeLayout>
+         
+           <ImageView
+			     android:id="@+id/iv_jesus"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_alignParentTop="true"
+			     android:layout_alignParentRight="true"
+			     android:layout_marginRight="30dip"
+			     android:visibility="invisible"
+			     android:background="@drawable/jesus_white_icon1"
+			     />
+           
+           <ImageView
+			     android:id="@+id/iv_church"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_alignParentTop="true"
+			     android:layout_alignParentRight="true"
+			     android:layout_marginTop="20dip"
+			     android:layout_marginRight="30dip"
+			     android:visibility="invisible"
+			     android:background="@drawable/church_icon" />
+           
+           <RelativeLayout
+			     android:id="@+id/rl_comment"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:layout_alignParentTop="true"
+			     android:layout_alignParentRight="true"
+			     android:layout_marginRight="10dip"
+			     android:visibility="invisible"
+			     android:layout_centerVertical="true"
+			     android:background="@drawable/commentbox" > 
+			     
+               <TextView 
+                   android:id="@+id/tv_speech"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#000000"
+                   android:layout_marginLeft="3dip"
+                   android:layout_marginRight="3dip"
+                   android:layout_centerInParent="true"
+                   android:gravity="center"
+                   android:textSize="17dip"
+                   />
+			    
+			 </RelativeLayout>
+			       <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+         <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:visibility="invisible"
+            android:onClick="onTextButtonClick"
+            />
+        <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+            >
+            
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

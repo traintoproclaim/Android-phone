@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout 
+         android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+         
+          <RelativeLayout
+            android:id="@+id/rl_inner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+             >
+             
+              <ImageView 
+                android:id="@+id/iv_bible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/screen_1_bible"
+                android:layout_centerHorizontal="true"
+                />
+
+        <RelativeLayout 
+           android:id="@+id/ll1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/iv_bible"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="5dip"
+           > 
+
+            <TextView
+                android:id="@+id/tv_lable_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GOD IS..."
+                android:textColor="#000000"
+                android:visibility="invisible"
+                android:textSize="@dimen/middle_text_font_size"
+                  android:layout_below="@+id/iv_bible"
+                    android:layout_alignRight="@+id/tv_lable_5_2"
+               />
+
+            <TextView
+                android:id="@+id/tv_lable_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HOLY"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/middle_text_font_size"
+                android:layout_toRightOf="@+id/tv_lable_1"
+                android:layout_below="@+id/iv_bible"
+                android:layout_marginLeft="5dip"
+                />
+
+           
+            
+    
+            <TextView
+                android:id="@+id/tv_lable_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HEAVEN IS..."
+               
+                android:textColor="#000000"
+                android:textSize="@dimen/middle_text_font_size"
+                android:visibility="invisible"
+                 android:layout_below="@+id/tv_lable_1"
+           android:layout_marginTop="5dip"
+            android:layout_alignRight="@+id/tv_lable_5_2"
+                />
+
+            <TextView
+                android:id="@+id/tv_lable_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:text="HOLY"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/middle_text_font_size"
+                android:layout_below="@+id/tv_lable_1"
+                android:layout_marginTop="5dip"
+                android:layout_alignLeft="@+id/tv_lable_2"
+               
+                />
+
+          <!--   </LinearLayout> -->
+            
+        
+            
+             <TextView
+                android:id="@+id/tv_lable_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOLY"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/middle_text_font_size"
+                android:layout_below="@+id/tv_lable_3"
+                android:visibility="invisible"
+                 />
+                
+                
+            <TextView
+                android:id="@+id/tv_lable_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_lable_5_1"
+                android:layout_below="@+id/tv_lable_3"
+                android:text=" MEANS "
+                android:textColor="#000000"
+                android:textSize="@dimen/middle_text_font_size"
+                android:visibility="invisible"
+                />
+           
+            
+            <TextView
+                android:id="@+id/tv_lable_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PERFECT"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/middle_text_font_size"
+                android:layout_below="@+id/tv_lable_3"
+                android:layout_toRightOf="@+id/tv_lable_5_2"
+                android:layout_alignLeft="@+id/tv_lable_2"
+                />
+         </RelativeLayout>
+   </RelativeLayout>
+   
+        <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+      <!--   <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+            android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+        <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+          >
+          
+          <TextView 
+              android:id="@+id/tv_bottom"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#747474"
+              android:text="jklkjh"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:gravity="center"
+              /> 
+          
+      </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

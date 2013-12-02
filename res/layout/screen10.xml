@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        
+        <RelativeLayout
+            android:id="@+id/rl_inner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_right"
+             >
+             
+             <FrameLayout
+                android:id="@+id/fl_lier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dip" 
+              >
+                
+                  <ImageView
+                      android:id="@+id/iv_text_bottom"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      
+                      android:background="@drawable/liers_small" 
+                        />
+
+                  <ImageView
+                      android:id="@+id/iv_guilty"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/guilty_small" />
+                
+                </FrameLayout>
+
+             
+              <FrameLayout
+                android:id="@+id/fl_thievs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_lier"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dip" 
+                android:visibility="gone"
+                >
+                
+                  <ImageView
+                      android:id="@+id/iv_text_bottom"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/thieves_small" 
+                        />
+
+                  <ImageView
+                      android:id="@+id/iv_guilty"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/guilty_small" />
+           </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fl_muderes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fl_thievs"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dip"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_text_bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/murderers_small" />
+
+                    <ImageView
+                        android:id="@+id/iv_guilty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/guilty_small" />
+                    
+					</FrameLayout>
+              
+                
+                 <FrameLayout
+                android:id="@+id/fl_basphemy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dip" 
+                android:layout_below="@+id/fl_muderes"
+                android:visibility="gone"
+              >
+                
+                  <TextView
+                      android:id="@+id/iv_text_bottom"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/blasphemer_gray"
+                      android:textSize="22dip"
+                      android:textColor="#000000"
+                     
+                        />
+
+                  <ImageView
+                      android:id="@+id/iv_guilty"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/guilty_small" />
+             </FrameLayout>
+
+                 
+                  <FrameLayout
+	                android:id="@+id/fl_idolatry"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_marginTop="5dip" 
+	                android:layout_below="@+id/fl_basphemy"
+	                android:visibility="gone"
+	                >
+                
+                  <TextView
+                      android:id="@+id/iv_text_bottom"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/idolaters_gray"
+                      android:textSize="22dip"
+                      android:textColor="#000000"
+                        />
+
+                  <ImageView
+                      android:id="@+id/iv_guilty"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@drawable/guilty_small" />
+        </FrameLayout>
+              
+     </RelativeLayout>
+          <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+       
+    </RelativeLayout>
+
+</RelativeLayout>

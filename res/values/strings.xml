@@ -1,0 +1,98 @@
+<resources>
+   
+    <string name="app_name">Gospel in 7</string>
+   <string name="alert_text">Please note: You cannot store more than four responses before going online. If needed make a note of extra email addresses and add when you are online.
+</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_gospel_main">Gospel in 7</string>
+  
+  
+    <string name="take_quiz" textsize ="20">Quiz (for everyone else)</string>
+    <string name="Skip_quiz" textsize ="20">Skip Quiz (for close family and friends)</string>
+    <string name="text_enterUserName" textSize ="22">PRESENTER NAME : </string>    
+      
+    
+    <string name="option_1">1 - Never</string>
+    <string name="option_2">2 - Hardly</string>
+    <string name="option_3">3 - Sometimes</string>
+    <string name="option_4">4 - Often</string>
+    <string name="option_5">5 - Always</string>
+     <string name= "result_1">49 &#8211; 50 : Angelic</string>
+     <string name= "result_2">46 &#8211; 48 : Saintly</string>
+     <string name= "result_3">18 &#8211; 45 : Good</string> 
+     <string name= "result_4">12 &#8211; 17 : Struggling</string>
+     <string name= "result_5">   &#8211; 12 : Seek Help</string>   
+     <string name="instruction_text">Read the words at the bottom and tap the screen when you get to the third to 
+last word so that you can seamlessly flow onto the words on the next screen. Please practice until you have a good flow. Go to traintoproclaim.com for a video tutorial on how to use this App.
+     </string>
+     <string name="instruction_title">INSTRUCTIONS</string>
+    <string-array name="tickerTexts">
+        <item >The following is a summary of the message of the entire Bible &#8230;</item>
+        <item >The Bible says that God is holy</item>
+        <item >heaven is holy..</item>
+        <item >&#8230; and holy means perfect</item>
+        <item >when God created the world; He made people perfect to have a friendship with Him.</item>
+        <item >The Bible also says that. All of us have a</item>
+        <item >body and a</item>
+        <item >soul. At death your body is</item>
+        <item >buried or cremated &#8230; but your</item>
+        <item >soul, the real you</item>
+        <item >lives on forever either in</item>
+        <item >heaven or</item>     
+        <item >hell and there is</item>
+        <item >no third place</item>
+        <item >Now do you know anyone who has never broken any of God\'s laws?</item>
+        <item >No, neither do I</item>
+    </string-array>
+    <string-array name="appTexts">
+    	<item >God is</item>
+    	<item >Holy</item>
+    	<item >heaven is</item>    
+    	<item >holy</item>
+    	<item >Holy is</item>
+    	<item >Perfect</item>
+    	<item >All of Us</item>
+    	<item >The real you..</item>
+    	<item >..lives on forever either in</item>
+    	<item >Heaven</item>
+    	<item >Hell</item>
+    	<item >Question:</item>
+    	<item >Do you know anyone who has never broken any of God\'s laws?</item>
+    	<item >Answer :</item>		
+    	<item >No</item>
+    	<item >Neither do I.</item>
+    </string-array>    
+    <string-array name="quiz_Array">
+        <item >1. I give to charities</item>
+        <item >2. I pray</item>
+        <item >3. I help strangers in need</item>
+        <item >4. I read the Bible</item>
+        <item >5. I forgive people when they hurt me</item>
+        <item >6. I love and help family members</item>
+        <item >7. I am loyal with my friendships</item>
+        <item >8. I put other people first when they need me</item>
+        <item >9. I am totally honest in the things I say and do</item>
+        <item >10. I see the best in people</item>   
+    </string-array>         
+    <string-array name="quiz_narrate_array">
+        <item >I give to charities. 5 is always, 1 is never. What would you give yourself?</item>
+        <item >I pray. 5 is every day, 1 is never in your life. Not even when you are in trouble!</item>
+        <item >Well you are helping me today</item>
+        <item >5 is you browse it quite often, 1 is you have never held it in your hand</item>
+        <item >This is hard to do sometimes</item>
+        <item >Love your family?</item>
+        <item >Are you a good friend?</item>
+        <item >You are putting me first today!</item>
+        <item >This is a revealing one :-)</item>
+        <item >Do you see the best or the worst in people, or a bit of both?</item>           
+    </string-array>
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="text_group">Group</string>
+    <string name="text_audienceName"> AUDIENCE NAME : </string>
+    <string name="text_your_score_is">Your score is : </string>
+    <string name="text_resultNarrateText1">You scored</string>
+    <string name="text_resultNarrateText2">According to this you</string>
+  
+  
+</resources>

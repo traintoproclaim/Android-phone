@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dip"
+            >
+        
+        <ImageView
+            android:id="@+id/iv_major_event_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:background="@drawable/event_birth"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            />
+        
+        <ImageView
+            android:id="@+id/iv_soul_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_major_event_line"
+            android:background="@drawable/soul_transfer_small1"
+            android:visibility="invisible"
+             />
+        
+        <ImageView
+            android:id="@+id/iv_rec_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_major_event_line"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rec_list"
+            android:layout_marginTop="5dip"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/cross8"
+            android:layout_below="@+id/iv_major_event_line"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+             />
+   
+      <ImageView
+            android:id="@+id/iv_major_events_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_cross"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/three_major_events" />
+      </RelativeLayout>
+        <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+        
+      
+    </RelativeLayout>
+
+</RelativeLayout>

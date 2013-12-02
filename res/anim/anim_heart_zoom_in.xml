@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_body_down" android:oneshot="true">
+     
+     <item android:drawable="@drawable/heart_zoom1" android:duration="100" />
+     <item android:drawable="@drawable/heart_zoom2" android:duration="100" />
+     <item android:drawable="@drawable/heart_zoom3" android:duration="100" /> 
+     <item android:drawable="@drawable/heart_zoom4" android:duration="100" />
+     <item android:drawable="@drawable/heart_zoom5" android:duration="100" /> 
+     <item android:drawable="@drawable/heart_zoom6" android:duration="100" /> 
+     <item android:drawable="@drawable/heart_zoom7" android:duration="100" /> 
+  
+ </animation-list>

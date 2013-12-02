@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <!-- <ScrollView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:layout_centerInParent="true"
+        > -->
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RadioButton
+                android:id="@+id/rb_long_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Long Version"
+                android:checked="false"
+                android:textSize="@dimen/small_text_font_size"
+                android:textColor="#000000" />
+
+             <RadioButton
+                android:id="@+id/rb_short_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Short Version" 
+                 android:textSize="@dimen/small_text_font_size"
+                android:checked="false"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:textColor="#000000" />
+            
+            <RadioButton
+                android:id="@+id/rb_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personalise Photo"
+                android:checked="false"
+                android:textSize="@dimen/small_text_font_size"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:textColor="#000000" />
+
+           
+             <RadioButton
+                android:id="@+id/rb_ministry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About The Ministry" 
+                android:checked="false"
+                android:textSize="@dimen/small_text_font_size"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:layout_marginRight="5dip"
+                android:textColor="#000000" />
+             
+              <RadioButton
+                android:id="@+id/rb_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copyright" 
+                android:textSize="@dimen/small_text_font_size"
+                android:checked="false"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:textColor="#000000" />
+              
+               <RadioButton
+                android:id="@+id/rb_credits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credits" 
+                android:textSize="@dimen/small_text_font_size"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:checked="false"
+                android:textColor="#000000" />
+               
+               <RadioButton
+                android:id="@+id/rb_login_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Login Details" 
+                android:checked="false"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:textSize="@dimen/small_text_font_size"
+                android:layout_marginRight="5dip"
+                android:textColor="#000000" />
+               
+               <!--  <RadioButton
+                android:id="@+id/rb_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close" 
+                android:textSize="@dimen/small_text_font_size"
+                android:checked="false"
+                android:layout_marginTop="@dimen/alert_margin_top"
+                android:layout_marginRight="5dip"
+                android:textColor="#000000" /> -->
+             
+        </RadioGroup>
+       <!--  </ScrollView> -->
+</RelativeLayout>

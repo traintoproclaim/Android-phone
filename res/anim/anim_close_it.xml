@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_black" android:oneshot="true">
+    <item android:drawable="@drawable/close1" android:duration="150" />
+    <item android:drawable="@drawable/close2" android:duration="150" />
+    <item android:drawable="@drawable/close3" android:duration="150" />
+    <item android:drawable="@drawable/close4" android:duration="150" />
+    <item android:drawable="@drawable/close5" android:duration="150" />
+    <item android:drawable="@drawable/close6" android:duration="150" />
+    <item android:drawable="@drawable/close7" android:duration="150" />
+    <item android:drawable="@drawable/close8" android:duration="150" />
+ </animation-list>

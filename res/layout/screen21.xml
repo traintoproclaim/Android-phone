@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background"
+   >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+          
+   
+         <RelativeLayout
+             android:id="@+id/rl_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             >
+
+             
+             <ImageView
+                    android:id="@+id/iv_die_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/if_you_died_text" />
+         
+       
+               <ImageView
+                    android:id="@+id/iv_die_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/if_you_died_text" />
+               
+               <ImageView
+                    android:id="@+id/iv_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_die_text"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/body_with_soul"/>
+               
+                <RelativeLayout
+                android:id="@+id/rl_in_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_body"
+                 android:layout_centerVertical="true"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_heven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+                   
+                  
+                    android:background="@drawable/heaven"
+                    />
+                
+                <ImageView
+                    android:id="@+id/iv_quest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_heven"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/question_mark_small" />
+                
+
+                <ImageView
+                    android:id="@+id/iv_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_heven"
+                    android:layout_marginTop="5dip"
+                  
+                    android:background="@drawable/crossbar_two_arrows" />
+
+                <ImageView
+                    android:id="@+id/iv_hell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_arrow"
+                    android:src="@drawable/hell"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="20dip"
+                     />
+                
+                <ImageView
+                    android:id="@+id/iv_quest2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_hell"
+                    android:layout_alignLeft="@+id/iv_quest1"
+                    android:layout_toRightOf="@+id/iv_hell"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/question_mark_small"
+                    />
+               
+            </RelativeLayout>
+                
+             </RelativeLayout>
+         
+         
+     
+             <RelativeLayout
+             android:id="@+id/rl_3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             >
+
+             
+             <ImageView
+                    android:id="@+id/iv_bible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/screen_1_bible" />
+         
+                
+             </RelativeLayout>
+      <!--       -->
+         
+           <RelativeLayout
+             android:id="@+id/rl_4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             >
+
+              <TextView 
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#1A1A1A"
+            android:layout_centerInParent="true"           
+            android:gravity="center"
+            android:layout_marginTop="8dip"
+            android:textSize="@dimen/title_font_size"
+            />
+                
+             </RelativeLayout>
+             
+           <include 
+            layout="@layout/bottom_bar"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+             
+        <!--  <Button 
+            android:id="@+id/btn_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/text_icon"
+            android:layout_margin="5dip"
+             android:onClick="onTextButtonClick"
+            android:visibility="invisible"
+            />
+        <LinearLayout 
+            android:id="@+id/ll_bottom"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onTextClick"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line"
+          >
+
+            <TextView
+                android:id="@+id/tv_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#747474"
+                android:textSize="18dip" />
+        </LinearLayout> -->
+    </RelativeLayout>
+ </RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <RelativeLayout
+		android:id="@+id/relative_layout_buttom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+	 >
+		<TextView 
+		    android:id="@+id/tv1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true" 
+		    android:textSize="@dimen/body_font_size"
+		    android:textColor="#1A1A1A"
+		    />
+    
+           <EditText
+				android:id="@+id/et_email"
+				android:layout_width="230dp"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv1"
+				android:hint="Enter Login name"
+				android:paddingLeft="5dp"
+				android:layout_marginTop="10dip"
+				android:scrollHorizontally="true"
+				android:scrollbars="horizontal"
+				android:singleLine="true" />
+    
+    
+   			<EditText
+				android:id="@+id/et_password"
+				android:layout_width="230dp"
+				android:layout_height="wrap_content"
+			    android:layout_below="@+id/et_email"
+				android:hint="Enter password"
+				android:password="true"
+				android:scrollHorizontally="true"
+				android:scrollbars="horizontal"
+				android:singleLine="true" /> 
+    
+   			
+   				<Button
+					android:id="@+id/btn_submit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+				    android:layout_below="@+id/et_password"
+					android:layout_centerHorizontal="true"
+					android:layout_marginTop="15dp"
+					android:background="@drawable/login_btn"
+					/>
+   				
+        </RelativeLayout>
+        
+             <Button
+					android:id="@+id/btn_registor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+				    android:layout_below="@+id/relative_layout_buttom"
+					android:layout_alignParentRight="true"
+					android:layout_marginRight="40dip"
+					android:layout_marginTop="20dip"
+					android:background="@drawable/register_btn"
+					 />
+</RelativeLayout>

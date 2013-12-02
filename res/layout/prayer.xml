@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+     <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+         >
+        <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         >
+         <TextView 
+             android:id="@+id/tv_lable_1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dip"
+             android:layout_marginRight="10dip"
+             android:layout_marginTop="4dip"
+             android:gravity="center"
+             android:textSize="@dimen/body_font_size"
+             />
+       <EditText
+             android:id="@+id/et_name"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/tv_lable_1"
+             android:layout_marginTop="5dip"
+             android:visibility="gone"
+             android:inputType="textCapSentences"
+             android:hint="Enter Name"
+             android:singleLine="true" />
+       
+         <EditText
+             android:id="@+id/et_email"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/et_name"
+             android:layout_marginTop="5dip"
+             android:visibility="gone"
+             android:hint="Enter email Address"
+             android:singleLine="true" />
+         
+           <EditText
+             android:id="@+id/et_email1"
+             android:layout_width="300dip"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/et_email"
+             android:layout_marginTop="5dip"
+             android:visibility="gone"
+             android:hint="Enter Presenter email Address"
+             android:singleLine="true" />
+           
+        <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/et_email1"
+           android:layout_marginTop="5dip"
+           android:layout_centerHorizontal="true"
+           >
+           
+         <Button
+             android:id="@+id/btn_send"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:visibility="gone"
+             android:background="@drawable/send_btn"
+             android:layout_marginRight="5dip"
+            />
+         
+           <Button
+             android:id="@+id/btn_next"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:visibility="gone"
+             android:layout_toRightOf="@+id/btn_send"
+             android:layout_marginLeft="5dip"
+             android:background="@drawable/next"
+            />
+           
+           
+           		</RelativeLayout>
+     		</RelativeLayout>
+         </RelativeLayout>
+         
+        <Button
+             android:id="@+id/btn_end"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/endbtn"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentRight="true"
+             android:layout_marginBottom="10dip"
+             android:layout_marginRight="20dip"
+            android:visibility="invisible"
+             />
+    </RelativeLayout>

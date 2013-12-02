@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <!--
+     	<ImageView
+	    android:id="@+id/img_Logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dp"
+	    android:src="@drawable/main_logo" />
+    -->
+
+    <TableLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center" >
+
+        <TableRow
+            android:id="@+id/TableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/tv_enterUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="#336666"
+                android:textSize="@dimen/title_font_size"
+                android:textStyle="bold" />
+
+           <EditText
+                android:id="@+id/edit_Text_UserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:maxLength="14"
+                android:inputType="textCapSentences"
+                android:singleLine="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:width="150dp" /> 
+        </TableRow>
+       
+
+        <RadioGroup
+            android:id="@+id/rg_quizOrSkipQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical" >
+
+            <TableLayout>
+
+                <RadioButton
+                    android:id="@+id/rb_skipQuiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skip Quiz (for close family and friends)"
+                     android:textSize="@dimen/body_font_size"
+                    android:textColor="#1A1A1A" />
+
+                <RadioButton
+                    android:id="@+id/rb_goQuiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/body_font_size"
+                    android:textColor="#1A1A1A" />
+            </TableLayout>
+        </RadioGroup>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_next_enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+    	android:layout_alignParentBottom="true"
+    	android:layout_marginBottom="30dip"
+    	android:layout_marginRight="30dip"
+        android:background="@drawable/next" />
+
+</RelativeLayout>

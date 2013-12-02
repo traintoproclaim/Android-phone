@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_quest" android:oneshot="true">
+    <item android:drawable="@drawable/qus1" android:duration="100" />
+    <item android:drawable="@drawable/qus2" android:duration="100" />
+    <item android:drawable="@drawable/qus3" android:duration="100" />
+    <item android:drawable="@drawable/qus4" android:duration="100" />
+    <item android:drawable="@drawable/qus5" android:duration="100" />
+    <item android:drawable="@drawable/qus6" android:duration="100" />
+   <item android:drawable="@drawable/qus7" android:duration="100" />
+    <item android:drawable="@drawable/qus8" android:duration="100" />
+    <item android:drawable="@drawable/qus9" android:duration="100" />
+    <item android:drawable="@drawable/qus10" android:duration="100" />
+    <item android:drawable="@drawable/qus11" android:duration="100" />
+   
+ </animation-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_height">25dp</dimen>
+    <dimen name="textview_width">150dp</dimen>
+    <dimen name="ball_radius">30dp</dimen>
+   <!--  large  -->
+    <dimen name="title_font_size">30sp</dimen>
+    <dimen name="text_font_size">26sp</dimen>
+    <dimen name="body_font_size">24sp</dimen>
+    <dimen name="middle_text_font_size">48sp</dimen>
+    <dimen name="big_text_font_size">36sp</dimen>
+     <dimen name="large_text_font_size">40sp</dimen>
+    <dimen name="small_text_font_size">24sp</dimen>
+    <dimen name="alert_margin_top">0dp</dimen>
+    <dimen name="padding_bottom">80dp</dimen>
+    <dimen name="margin_right">100dp</dimen>
+    <dimen name="photo_width">120dp</dimen>
+  <dimen name="heart_text_margin_top">60dp</dimen>
+</resources>
